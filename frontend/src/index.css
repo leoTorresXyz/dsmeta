@@ -7,7 +7,8 @@
   padding: 0;
 }
 
-body, html {
+body,
+html {
   color: #fff;
   background-color: #000;
 }
@@ -19,4 +20,16 @@ a {
 
 a:hover {
   color: green;
+}
+
+.dsmeta-container {
+  width: 100%;
+  max-width: 900px;
+  /*container expandira até 900px*/
+  margin: 0 auto;
+  ;
+}
+
+#sales {
+  padding: 40px 10px;
 }
